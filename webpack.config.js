@@ -3,7 +3,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const config = {
     entry: {
-        main: ['./assets/js/app.tsx', './assets/css/app.scss'],
+        main: [
+            './assets/js/app.tsx',
+            './assets/css/app.scss',
+        ],
+        404: [
+            './assets/js/404.tsx',
+            './assets/css/404.scss'
+        ]
     },
     module: {
         rules: [

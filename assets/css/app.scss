@@ -195,6 +195,11 @@ h2, .h2 {
         padding-bottom: 1em;
       }
 
+      a {
+        text-decoration: none;
+        color: $gray-600;
+      }
+
       &:last-child {
         p {
           border: none;
