@@ -72,7 +72,7 @@ export const skills: SkillsInterface[] = [
     },
     {
         categoryId: categoryId.Backend,
-        displayName: 'doctrine'
+        displayName: 'Doctrine'
     },
     {
         categoryId: categoryId.Backend,
@@ -88,7 +88,7 @@ export const skills: SkillsInterface[] = [
     },
     {
         categoryId: categoryId.Backend,
-        displayName: 'bash',
+        displayName: 'Bash',
     },
     {
         categoryId: categoryId.Frontend,
@@ -97,21 +97,21 @@ export const skills: SkillsInterface[] = [
     },
     {
         categoryId: categoryId.Frontend,
-        displayName: 'typescript',
+        displayName: 'Typescript',
     },
     {
         categoryId: categoryId.Frontend,
-        displayName: 'webpack',
+        displayName: 'Webpack',
         FontAwesomeIcon: ['fab', 'uikit']
     },
     {
         categoryId: categoryId.Frontend,
-        displayName: 'react',
+        displayName: 'React',
         FontAwesomeIcon: ['fab', 'react']
     },
     {
         categoryId: categoryId.Frontend,
-        displayName: 'vueJs',
+        displayName: 'VueJs',
         FontAwesomeIcon: ['fab', 'vuejs']
     },
     {
@@ -126,7 +126,7 @@ export const skills: SkillsInterface[] = [
     },
     {
         categoryId: categoryId.Frontend,
-        displayName: 'npm',
+        displayName: 'Npm',
         FontAwesomeIcon: ['fab', 'npm']
     },
     {
@@ -136,7 +136,7 @@ export const skills: SkillsInterface[] = [
     },
     {
         categoryId: categoryId.Frontend,
-        displayName: 'node',
+        displayName: 'Node',
         FontAwesomeIcon: ['fab', 'node-js']
     },
     {
@@ -210,7 +210,7 @@ export const skills: SkillsInterface[] = [
     },
     {
         categoryId: categoryId.API,
-        displayName: 'Swagger / open API',
+        displayName: 'Swagger / Open API',
     },
     {
         categoryId: categoryId.API,
