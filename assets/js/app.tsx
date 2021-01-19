@@ -44,8 +44,6 @@ function popToast(
 
     toastList[id] = new Toast(document.getElementById(id))
     toastList[id]._element.addEventListener('hidden.bs.toast', () => {
-        console.log('ici')
-        console.log(toastList[id])
         toastList[id].dispose();
     })
     toastList[id].show()
@@ -60,6 +58,7 @@ if (form !== undefined) {
             new FormData(form)
         ).then(() => {
             popToast('Félicitation', 'Votre message a bien été envoyé', 'success');
+            form.reset();
         }).catch(() => {
             popToast('Erreur', 'Echec lors de l\'envoi, veuillez réessayer ultérieurement', 'danger');
         })
