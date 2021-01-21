@@ -16,6 +16,7 @@
     "@types/lodash": "^4.14.167",
     "@types/node": "^14.14.21",
     "@types/react": "^17.0.0",
+    "@types/react-bootstrap-range-slider": "^1.2.0",
     "@types/react-dom": "^17.0.0",
     "bootstrap": "5.0.0-beta1",
     "css-loader": "^5.0.1",
@@ -35,6 +36,7 @@
     "lodash": "^4.17.20",
     "path": "^0.12.7",
     "react": "^17.0.1",
+    "react-bootstrap-range-slider": "^2.0.2",
     "react-dom": "^17.0.1"
   }
 }

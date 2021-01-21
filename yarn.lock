@@ -120,6 +120,13 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
+"@types/react-bootstrap-range-slider@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/react-bootstrap-range-slider/-/react-bootstrap-range-slider-1.2.0.tgz#00f0d7bfcd06d26b7e11488b7123f06ac238d65c"
+  integrity sha512-gh5y6Fa0q1ujR1ONml1S2scnBsY+XWz6NbLphZuKVtVnzSZRQBIvi2gtZknQ+wWK2bs5TFCfaMIBm1OEwQo6mw==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@^17.0.0":
   version "17.0.0"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.0.tgz#b3b691eb956c4b3401777ee67b900cb28415d95a"
@@ -419,6 +426,11 @@ chrome-trace-event@^1.0.2:
   integrity sha512-9e/zx1jw7B4CO+c/RXoCsfg/x1AfUBioy4owYH0bJprEYAx5hRFLRhWBqHAG57D0ZM4H7vxbP7bPe0VwhQRYDQ==
   dependencies:
     tslib "^1.9.0"
+
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
 color-convert@^2.0.1:
   version "2.0.1"
@@ -1135,6 +1147,14 @@ randombytes@^2.1.0:
   integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
   dependencies:
     safe-buffer "^5.1.0"
+
+react-bootstrap-range-slider@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-bootstrap-range-slider/-/react-bootstrap-range-slider-2.0.2.tgz#7c02860d8850aaeae0c80baa9fcd7b3749b35cf4"
+  integrity sha512-GptOpQjarlf6H2OfGsAqS1jOFFw8lsfQVLCWD6tgILspr2qZxzoiyUGLPDNfFFLy/ALhzGxlnVUrYjOe34UkhA==
+  dependencies:
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
 
 react-dom@^17.0.1:
   version "17.0.1"

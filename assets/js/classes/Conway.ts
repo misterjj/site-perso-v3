@@ -1,4 +1,11 @@
 export default class Conway {
+    get nbGeneration(): number {
+        return this._nbGeneration;
+    }
+
+    set nbGeneration(value: number) {
+        this._nbGeneration = value;
+    }
     get isLoop(): boolean {
         return this._isLoop;
     }
@@ -17,6 +24,10 @@ export default class Conway {
 
     get overpopulationTrigger(): number {
         return this._overpopulationTrigger;
+    }
+
+    set overpopulationTrigger(value: number) {
+        this._overpopulationTrigger = value;
     }
 
     get underpopulationTrigger(): number {
@@ -64,6 +75,7 @@ export default class Conway {
     private _overpopulationTrigger = 3
     private _reproductionTrigger = 3
     private _isLoop = true
+    private _nbGeneration = 0
 
     loadFromString(str: string): void {
         let strToArray: string[][] = []
@@ -118,6 +130,8 @@ export default class Conway {
                 }
             }
         }
+
+        this.nbGeneration = 1;
     }
 
     newGeneration() {
@@ -177,5 +191,7 @@ export default class Conway {
                 this.model[h][w] = neighboursCount === this._reproductionTrigger;
             }
         }
+
+        this.nbGeneration++;
     }
 }
