@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch --mode=development"
+    "dev": "webpack --watch --mode=development"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",

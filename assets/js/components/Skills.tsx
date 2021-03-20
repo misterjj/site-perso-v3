@@ -34,7 +34,7 @@ export default class Skills extends React.PureComponent<SkillsProps, SkillsState
     render() {
         return <div className="mt-5">
             <div className="filters">
-                <FontAwesomeIcon icon="filter" /> filtres : {
+                <span className="d-print-none"><FontAwesomeIcon icon="filter" /> filtres : </span>{
                 categories.map(item =>
                     <span
                         key={item.id}

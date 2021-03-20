@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="dist/main.min.css">
     </head>
     <body>
-        <nav class="navbar w-100 text-uppercase fixed-top">
+        <nav class="navbar w-100 text-uppercase fixed-top d-print-none">
             <div class="container">
                 <div class="w-100 d-flex align-items-center">
                     <div class="flex-grow-1">
@@ -30,7 +30,7 @@
             </div>
         </nav>
 
-        <div id="home">
+        <div id="home" class="d-print-none">
             <video autoplay muted loop>
                 <source src="dist/video/home.mp4" type="video/mp4">
             </video>
@@ -54,6 +54,16 @@
 
         <div id="cv" class="bg-light pt-5 pb-5">
             <div class="container">
+                <div class="mb-5 d-none d-print-flex">
+                    <div class="ms-5">
+                        <strong>Jonathan JORAND</strong> <small>31 ans</small> <br/>
+                        <small>57 rue du maréchal FOCH, 59150 roubaix. <br></small>
+                        <small>06.32.32.96.83</small>
+                    </div>
+                    <div class="text-end flex-grow-1 me-5">
+                        <span class="d-inline-block logo"></span>
+                    </div>
+                </div>
                 <div class="text-center">
                     <h2 class="title text-uppercase font-weight-bolder">à propos de moi</h2>
                 </div>
@@ -73,7 +83,7 @@
                             ans, qui reste passionné par son métier.<br/>
                             <br>
                         </p>
-                        <a class="btn btn-dark" href="cv/Jonathan_JORAND.pdf" target="_blank">Télécharger mon CV</a>
+                        <a class="btn btn-dark d-print-none" href="dist/Jonathan_JORAND.pdf" target="_blank">Télécharger mon CV</a>
                     </div>
                     <div class="col-md-6 my-skill">
                         <h3>Mes <strong>Compétences</strong></h3>
@@ -93,7 +103,7 @@
                         <div class="progress">
                             <div class="progress-bar bg-dark" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="bg-dark">70%</span></div>
                         </div>
-                        <div class="text-end mt-3">
+                        <div class="text-end mt-3 d-print-none">
                             <a href="#skills" class="btn btn-outline-dark">En voir plus</a>
                         </div>
                     </div>
@@ -139,6 +149,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="d-none d-print-block mt-5"></div>
+                    <div class="d-none d-print-block mt-5"></div>
+                    <div class="d-none d-print-block mt-5"></div>
                     <div class="col-md-6">
                         <div class="panel bg-white p-4">
                             <h3 class="mb-4"><strong>Ex</strong>periences</h3>
@@ -284,7 +297,7 @@
             </div>
         </div>
 
-        <div class="bg-dark text-light pt-5">
+        <div id="stats" class="bg-dark text-light pt-5">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-12 col-sm-6 col-md-4 mb-5">
@@ -318,7 +331,7 @@
             </div>
         </div>
 
-        <div id="contact" class="bg-light pt-5 pb-5">
+        <div id="contact" class="bg-light pt-5 pb-5 d-print-none">
             <div class="container">
                 <div class="text-center">
                     <h2 class="title text-uppercase font-weight-bolder">Contact</h2>
